@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    # 使用druid数据源
+    name: dev
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mp?allowMultiQueries=true&amp;useUnicode=true&amp;characterEncoding=UTF-8
+    username: root
+    password: a84857766
+
